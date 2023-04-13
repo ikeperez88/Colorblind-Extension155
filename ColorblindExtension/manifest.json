@@ -1,0 +1,20 @@
+{
+  "name": "Colorblind Extension",
+  "version": "1.8",
+  "manifest_version": 2,
+  "description": "Simulates colorblindness in your web browser.",
+
+  "icons": {
+    "16": "images/star.png",
+    "48": "images/star.png",
+    "128": "images/star.png"
+  },
+  "browser_action": {
+    "default_title": "Colorblind Extension",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
